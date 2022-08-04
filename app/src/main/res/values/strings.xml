@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ExampleApp</string>
+    <string name="challenge1">My Great App</string>
 </resources>
