@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         //Mostramos dichos valores por el log
         Log.i("Values","Your name: " + name);
         Log.i("Values","Your password: " + password);
+
+        Toast.makeText(this,"Hello, " + name, Toast.LENGTH_SHORT).show();
 
     }
 }
