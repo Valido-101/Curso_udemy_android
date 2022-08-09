@@ -2,4 +2,6 @@
     <string name="app_name">ExampleApp</string>
     <string name="challenge1">My Great App</string>
     <string name="button1">Push me!</string>
+    <string name="button2">Enter</string>
+    <string name="button3">Back</string>
 </resources>
