@@ -25,6 +25,7 @@
         app:textAllCaps="false" />
 
     <!-- Así se añade una función con el xml, usando el atributo onClick -->
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -35,7 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.043" />
 
     <EditText
         android:id="@+id/NameEditText"
@@ -75,5 +76,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/NameEditText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="161dp"
+        android:layout_height="159dp"
+        app:layout_constraintBottom_toTopOf="@+id/NameEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@drawable/db" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
