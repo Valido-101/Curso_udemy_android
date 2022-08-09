@@ -21,15 +21,21 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void showName(View view){
+    public void showNameAndPassword(View view){
 
+        //Obtenemos las vistas por su id
         EditText nameEditText = (EditText)findViewById(R.id.NameEditText);
+        EditText passwordEditText = (EditText)findViewById(R.id.editTextPassword);
 
+        //Obtenemos el valor de los editText en formato string
         String name = nameEditText.getText().toString();
+        String password = passwordEditText.getText().toString();
 
         Log.i("Info","Button Pressed!");
 
+        //Mostramos dichos valores por el log
         Log.i("Values","Your name: " + name);
+        Log.i("Values","Your password: " + password);
 
     }
 }
