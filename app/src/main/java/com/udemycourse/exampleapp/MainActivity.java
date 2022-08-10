@@ -2,6 +2,7 @@ package com.udemycourse.exampleapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -67,5 +68,11 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this,"Hello, " + name, Toast.LENGTH_SHORT).show();
 
+    }
+
+    //Este método sirve para moverse entre las activities, para ello debe estar declarada en el manifest
+    public void switchToDokkanFader(View view){
+        Intent menuIntent = new Intent(getApplicationContext(), Dokkan_fader.class);
+        startActivity(menuIntent);
     }
 }
