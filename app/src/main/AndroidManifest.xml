@@ -4,14 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_dragonball"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_dragonball_round"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ExampleApp"
-        android:screenOrientation="portrait">
+        android:theme="@style/Theme.ExampleApp">
         <activity
-            android:name="com.udemycourse.exampleapp.Dokkan_fader"
+            android:name=".Connect3"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Dokkan_fader"
             android:label="@string/app_name" />
         <activity android:name=".MainActivity">
             <intent-filter>

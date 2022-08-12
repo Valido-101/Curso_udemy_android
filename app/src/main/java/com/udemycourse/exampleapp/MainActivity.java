@@ -75,4 +75,9 @@ public class MainActivity extends AppCompatActivity {
         Intent menuIntent = new Intent(getApplicationContext(), Dokkan_fader.class);
         startActivity(menuIntent);
     }
+
+    public void switchToConnect3(View view){
+        Intent menuIntent = new Intent(getApplicationContext(), Connect3.class);
+        startActivity(menuIntent);
+    }
 }
