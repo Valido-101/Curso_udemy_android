@@ -60,10 +60,10 @@
         android:text="@string/button2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.671"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/NameEditText"
-        app:layout_constraintVertical_bias="0.449" />
+        app:layout_constraintVertical_bias="0.49" />
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -111,5 +111,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:layout_constraintVertical_bias="0.555" />
+
+    <Button
+        android:id="@+id/btnVideoPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VideoPlayer"
+        android:onClick="switchToVideoPlayer"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword"
+        app:layout_constraintVertical_bias="0.788" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

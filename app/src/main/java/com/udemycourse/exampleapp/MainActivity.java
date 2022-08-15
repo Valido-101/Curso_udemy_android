@@ -80,4 +80,9 @@ public class MainActivity extends AppCompatActivity {
         Intent menuIntent = new Intent(getApplicationContext(), Connect3.class);
         startActivity(menuIntent);
     }
+
+    public void switchToVideoPlayer(View view){
+        Intent menuIntent = new Intent(getApplicationContext(), VideoPlayer.class);
+        startActivity(menuIntent);
+    }
 }
